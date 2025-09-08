@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Página Web</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-purple-400 via-pink-300 to-red-300 min-h-screen">
+
+  <!-- Navbar -->
+  <nav class="bg-purple-700 text-white shadow-lg fixed w-full top-0 left-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Mi Web 💖</h1>
+      <ul class="flex gap-6">
+        <li><a href="index.html" class="hover:text-gray-300">Inicio</a></li>
+        <li><a href="perfil.html" class="hover:text-gray-300">Perfil</a></li>
+        <li><a href="subpagina.html" class="hover:text-gray-300">Detalles</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Espaciado para que no se esconda el contenido -->
+  <div class="h-20"></div>
+
+  <!-- Contenido -->
+  <div class="flex items-center justify-center h-[calc(100vh-80px)]">
+    <div class="text-center bg-white p-10 rounded-2xl shadow-xl">
+      <h1 class="text-4xl font-bold mb-6">✨ Bienvenid@ a mi página ✨</h1>
+      <p class="mb-6 text-gray-700">Aquí podrás conocer un poco más sobre mí 💖</p>
+      <a href="perfil.html" class="px-6 py-3 bg-purple-600 text-white rounded-xl shadow hover:bg-purple-700 transition">Ver mi Perfil</a>
+    </div>
+  </div>
+</body>
+</html>
